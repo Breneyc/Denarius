@@ -10,5 +10,4 @@ class DemoTransfersWidget extends StatelessWidget{
       color: Color.fromARGB(255, 46, 13, 13),
     );
   }
-  
 }
