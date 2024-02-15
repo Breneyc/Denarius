@@ -1,15 +1,22 @@
 import 'package:flutter/material.dart';
 
+void main() {
+  runApp( MyApp());
+}
 
 
-class PaymentBalance extends StatelessWidget {
-  const PaymentBalance({super.key});
-  
-
+class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
-      body: Center(child: Text('Hola mundo')),
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text('Recarga'),
+        ),
+        body: Center(
+
+        ),
+      ),
     );
   }
 }
