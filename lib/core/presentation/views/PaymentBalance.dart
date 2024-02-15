@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Recarga'),
+          title: Text('Carga'),
         ),
         body: Center(
 
